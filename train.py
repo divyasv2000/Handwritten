@@ -66,19 +66,12 @@ for epoch in tqdm(range(100)):
 
     plt.plot(train_loss_over_time,label="train loss")
     plt.plot(test_loss_over_time,label="test loss")
-
     plt.legend()
-
     plt.savefig('plots/loss.png')
-
     plt.close('all')
-
     plt.plot(accuracy_over_time,label='test accuracy')
     plt.legend()
-
-
     plt.savefig('plots/accuracy.png')
-
     plt.close('all')
 
     if acc > last_best_accuracy:
