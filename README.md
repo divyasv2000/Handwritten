@@ -7,6 +7,6 @@ Signature forgery identitfication using Siamese CNN:
 
 The network was trained on a <a href="https://www.kaggle.com/robinreni/signature-verification-dataset">kaggle signature forgery identification dataset</a>
 
-# Testing
+# Demo
 
 ```python app.py```
